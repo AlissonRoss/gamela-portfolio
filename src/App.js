@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import 'animate.css';
 import './App.css';
+import NavBar from './Components/NavBar';
+import Marketing from './Components/Marketing';
+import Plant from './Assets/jaconda-plant.png';
+import SocialMedia from './Components/SocialMedia';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-header" id="home">
+        <NavBar className="NavBar"/>
+          <h1 className="App-title animate__animated animate__fadeInDown">Gamela Brice</h1>
+          <img className="Plant" src={Plant}/>
       </header>
+      <Marketing/>
+      <SocialMedia/>
     </div>
   );
 }
