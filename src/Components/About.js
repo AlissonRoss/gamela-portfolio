@@ -2,7 +2,7 @@ import 'animate.css';
 import Flower from '../Assets/flower-pot.gif';
 function About() {
     return (
-      <div className="SocialMedia" id="about">
+      <div className="About" id="about">
         <h1 className="Section-header animate__animated animate__fadeIn">ABOUT ME</h1>
         <h2 className="About-Description">
         &nbsp;My name is Gamela and I specialize in marketing and social media. 

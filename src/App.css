@@ -66,11 +66,14 @@ ul{
   font-family: 'Agrandir Wide';
   position: absolute;
   margin-top: 0;
+  width: 100vw;
+  font-weight: 100;
   padding-top: 5vh;
+  padding-bottom: 5vh;
   font-size: 4em;
 
 }
-.SocialMedia{
+.About{
   height: 75vh;
   background-color: #E4D8D3;
   color: #B13C0A;
@@ -78,11 +81,13 @@ ul{
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .About-Description{
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 10vh;
   width: 45vw;
   height:40vh;
+  font-weight: 100;
   padding-bottom: 10vh;
   margin:5.5em;
   text-align: justify;
@@ -104,10 +109,10 @@ ul{
 }
 .Marketing-Description, .SocialMedia-Description, .Cert-Description {
   margin-top: 15vh;
+  font-weight: 200;
 }
-
+/*FOOTER*/
 .Contact{
-  
   background-color: #333232;
   color:#E4D8D3;
   height: 40vh;
@@ -119,6 +124,7 @@ ul{
 }
 .Contact-Description{
   margin-top: 25vh;
+  font-weight: 100;
   text-align: center;
   width: 25vw;
 }
@@ -139,4 +145,28 @@ ul{
 }
 .Logo-Text{
   margin-left: 5vh;
+}
+
+/*SOCIAL MEDIA CAROUSEL*/
+.social-posts{
+  left: 25%;
+  width: 50vw;
+  height: 70vh;
+}
+.post-Img{
+  display: grid;
+  object-fit: scale-down;
+  align-items: center;
+  padding-bottom: 5em;
+  margin-left: 15em;
+  width: 30em;
+}
+.SocialMedia{
+  height: 100vh;
+  width: 100%;
+  background-color: #E4D8D3;
+  color: #B13C0A;
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
 }
